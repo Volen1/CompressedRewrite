@@ -1,6 +1,7 @@
 #Cobblestone
 
 tile.cpd.compressedcobblestone.name=Compressed Cobblestone
+tile.cpd.doublecompressedcobblestone.name=x2 Compressed Cobblestone
 
 #CreativeTab
 itemGroup.Compressed=Compressed
