@@ -3,6 +3,25 @@
 tile.cpd.compressedcobblestone.name=Compressed Cobblestone
 tile.cpd.doublecompressedcobblestone.name=x2 Compressed Cobblestone
 tile.cpd.triplecompressedcobblestone.name=x3 Compressed Cobblestone
+tile.cpd.quadruplecompressedcobblestone.name=x4 Compressed Cobblestone
+tile.cpd.quintuplecompressedcobblestone.name=x5 Compressed Cobblestone
+tile.cpd.sextuplecompressedcobblestone.name=x6 Compressed Cobblestone
+tile.cpd.septuplecompressedcobblestone.name=x7 Compressed Cobblestone
+tile.cpd.octuplecompressedcobblestone.name=x8 Compressed Cobblestone
+tile.cpd.nontuplecompressedcobblestone.name=x9 Compressed Cobblestone
+tile.cpd.decuplecompressedcobblestone.name=x10 Compressed Cobblestone
+
+#Dirt
+tile.cpd.compresseddirt.name=Compressed Dirt
+tile.cpd.doublecompresseddirt.name=x2 Compressed Dirt
+tile.cpd.triplecompresseddirt.name=x3 Compressed Dirt
+tile.cpd.quadruplecompresseddirt.name=x4 Compressed Dirt
+tile.cpd.quintuplecompresseddirt.name=x5 Compressed Dirt
+tile.cpd.sextuplecompresseddirt.name=x6 Compressed Dirt
+tile.cpd.septuplecompresseddirt.name=x7 Compressed Dirt
+tile.cpd.octuplecompresseddirt.name=x8 Compressed Dirt
+tile.cpd.nontuplecompresseddirt.name=x9 Compressed Dirt
+tile.cpd.decuplecompresseddirt.name=x10 Compressed Dirt
 
 #CreativeTab
 itemGroup.Compressed=Compressed
