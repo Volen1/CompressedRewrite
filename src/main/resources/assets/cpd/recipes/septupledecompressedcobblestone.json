@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "cpd:sextuplecompressedcobblestone",
+    "count": 9
+  },
+
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cpd:septuplecompressedcobblestone"
+    }
+  ]
+}

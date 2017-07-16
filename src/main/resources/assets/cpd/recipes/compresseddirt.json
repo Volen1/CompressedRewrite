@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "cpd:compresseddirt"
+  },
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:dirt",
+      "data": 0
+    }
+  }
+}

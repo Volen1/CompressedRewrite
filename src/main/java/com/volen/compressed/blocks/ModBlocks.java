@@ -39,6 +39,35 @@ public class ModBlocks {
     public static DecupleCompressedCobblestone decupleCompressedCobblestone;
 
     // Dirt
+    @GameRegistry.ObjectHolder("cpd:compresseddirt")
+    public static CompressedDirt compressedDirt;
+
+    @GameRegistry.ObjectHolder("cpd:doublecompresseddirt")
+    public static DoubleCompressedDirt doubleCompressedDirt;
+
+    @GameRegistry.ObjectHolder("cpd:triplecompresseddirt")
+    public static TripleCompressedDirt tripleCompressedDirt;
+
+    @GameRegistry.ObjectHolder("cpd:quadruplecompresseddirt")
+    public static QuadrupleCompressedDirt quadrupleCompressedDirt;
+
+    @GameRegistry.ObjectHolder("cpd:quintuplecompresseddirt")
+    public static QuintupleCompressedDirt quintupleCompressedDirt;
+
+    @GameRegistry.ObjectHolder("cpd:sextuplecompresseddirt")
+    public static SextupleCompressedDirt sextupleCompressedDirt;
+
+    @GameRegistry.ObjectHolder("cpd:septuplecompresseddirt")
+    public static SeptupleCompressedDirt septupleCompressedDirt;
+
+    @GameRegistry.ObjectHolder("cpd:octuplecompresseddirt")
+    public static OctupleCompressedDirt octupleCompressedDirt;
+
+    @GameRegistry.ObjectHolder("cpd:nontuplecompresseddirt")
+    public static NontupleCompressedDirt nontupleCompressedDirt;
+
+    @GameRegistry.ObjectHolder("cpd:decuplecompresseddirt")
+    public static DecupleCompressedDirt decupleCompressedDirt;
 
     @SideOnly(Side.CLIENT)
     public static void initModels() {
@@ -54,5 +83,17 @@ public class ModBlocks {
         octupleCompressedCobblestone.initModel();
         nontupleCompressedCobblestone.initModel();
         decupleCompressedCobblestone.initModel();
+
+        // Dirt
+        compressedDirt.initModel();
+        doubleCompressedDirt.initModel();
+        tripleCompressedDirt.initModel();
+        quadrupleCompressedDirt.initModel();
+        quintupleCompressedDirt.initModel();
+        sextupleCompressedDirt.initModel();
+        septupleCompressedDirt.initModel();
+        octupleCompressedDirt.initModel();
+        nontupleCompressedDirt.initModel();
+        decupleCompressedDirt.initModel();
     }
 }

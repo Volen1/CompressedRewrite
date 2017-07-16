@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "minecraft:dirt",
+    "data": 0,
+    "count": 9
+  },
+
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cpd:compresseddirt"
+    }
+  ]
+}
