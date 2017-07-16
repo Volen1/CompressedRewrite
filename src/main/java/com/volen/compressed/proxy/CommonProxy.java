@@ -11,8 +11,6 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-import static com.volen.compressed.blocks.ModBlocks.octupleCompressedDirt;
-
 
 @Mod.EventBusSubscriber
 public class CommonProxy {
@@ -55,6 +53,18 @@ public class CommonProxy {
         event.getRegistry().register(new NontupleCompressedDirt());
         event.getRegistry().register(new DecupleCompressedDirt());
 
+        // Gravel
+        event.getRegistry().register(new CompressedGravel());
+        event.getRegistry().register(new DoubleCompressedGravel());
+        event.getRegistry().register(new TripleCompressedGravel());
+        event.getRegistry().register(new QuadrupleCompressedGravel());
+        event.getRegistry().register(new QuintupleCompressedGravel());
+        event.getRegistry().register(new SextupleCompressedGravel());
+        event.getRegistry().register(new SeptupleCompressedGravel());
+        event.getRegistry().register(new OctupleCompressedGravel());
+        event.getRegistry().register(new NontupleCompressedGravel());
+        event.getRegistry().register(new DecupleCompressedGravel());
+
     }
 
     @SubscribeEvent
@@ -83,5 +93,17 @@ public class CommonProxy {
         event.getRegistry().register(new ItemBlock(ModBlocks.octupleCompressedDirt).setRegistryName(ModBlocks.octupleCompressedDirt.getRegistryName()));
         event.getRegistry().register(new ItemBlock(ModBlocks.nontupleCompressedDirt).setRegistryName(ModBlocks.nontupleCompressedDirt.getRegistryName()));
         event.getRegistry().register(new ItemBlock(ModBlocks.decupleCompressedDirt).setRegistryName(ModBlocks.decupleCompressedDirt.getRegistryName()));
+
+        // Gravel
+        event.getRegistry().register(new ItemBlock(ModBlocks.compressedGravel).setRegistryName(ModBlocks.compressedGravel.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(ModBlocks.doubleCompressedGravel).setRegistryName(ModBlocks.doubleCompressedGravel.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(ModBlocks.tripleCompressedGravel).setRegistryName(ModBlocks.tripleCompressedGravel.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(ModBlocks.quadrupleCompressedGravel).setRegistryName(ModBlocks.quadrupleCompressedGravel.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(ModBlocks.quintupleCompressedGravel).setRegistryName(ModBlocks.quintupleCompressedGravel.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(ModBlocks.sextupleCompressedGravel).setRegistryName(ModBlocks.sextupleCompressedGravel.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(ModBlocks.septupleCompressedGravel).setRegistryName(ModBlocks.septupleCompressedGravel.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(ModBlocks.octupleCompressedGravel).setRegistryName(ModBlocks.octupleCompressedGravel.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(ModBlocks.nontupleCompressedGravel).setRegistryName(ModBlocks.nontupleCompressedGravel.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(ModBlocks.decupleCompressedGravel).setRegistryName(ModBlocks.decupleCompressedGravel.getRegistryName()));
     }
 }

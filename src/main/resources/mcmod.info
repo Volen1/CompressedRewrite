@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
+  "modid": "cpd",
+  "name": "Compressed",
+  "description": "Compresses all easily attainable Vanilla Blocks up to x10",
+  "version": "0.1.5",
+  "mcversion": "1.12",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["voleN"],
+  "credits": "McJty and the ModdedMinecraft Club Staff team!",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "cpd:compressedgravel"
+  },
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:gravel"
+    }
+  }
+}

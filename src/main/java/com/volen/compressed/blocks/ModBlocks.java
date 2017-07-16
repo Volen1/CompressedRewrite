@@ -69,6 +69,37 @@ public class ModBlocks {
     @GameRegistry.ObjectHolder("cpd:decuplecompresseddirt")
     public static DecupleCompressedDirt decupleCompressedDirt;
 
+    // Gravel
+    @GameRegistry.ObjectHolder("cpd:compressedgravel")
+    public static CompressedGravel compressedGravel;
+
+    @GameRegistry.ObjectHolder("cpd:doublecompressedgravel")
+    public static DoubleCompressedGravel doubleCompressedGravel;
+
+    @GameRegistry.ObjectHolder("cpd:triplecompressedgravel")
+    public static TripleCompressedGravel tripleCompressedGravel;
+
+    @GameRegistry.ObjectHolder("cpd:quadruplecompressedgravel")
+    public static QuadrupleCompressedGravel quadrupleCompressedGravel;
+
+    @GameRegistry.ObjectHolder("cpd:quintuplecompressedgravel")
+    public static QuintupleCompressedGravel quintupleCompressedGravel;
+
+    @GameRegistry.ObjectHolder("cpd:sextuplecompressedgravel")
+    public static SextupleCompressedGravel sextupleCompressedGravel;
+
+    @GameRegistry.ObjectHolder("cpd:septuplecompressedgravel")
+    public static SeptupleCompressedGravel septupleCompressedGravel;
+
+    @GameRegistry.ObjectHolder("cpd:octuplecompressedgravel")
+    public static OctupleCompressedGravel octupleCompressedGravel;
+
+    @GameRegistry.ObjectHolder("cpd:nontuplecompressedgravel")
+    public static NontupleCompressedGravel nontupleCompressedGravel;
+
+    @GameRegistry.ObjectHolder("cpd:decuplecompressedgravel")
+    public static DecupleCompressedGravel decupleCompressedGravel;
+
     @SideOnly(Side.CLIENT)
     public static void initModels() {
 
@@ -95,5 +126,17 @@ public class ModBlocks {
         octupleCompressedDirt.initModel();
         nontupleCompressedDirt.initModel();
         decupleCompressedDirt.initModel();
+
+        // Gravel
+        compressedGravel.initModel();
+        doubleCompressedGravel.initModel();
+        tripleCompressedGravel.initModel();
+        quadrupleCompressedGravel.initModel();
+        quintupleCompressedGravel.initModel();
+        sextupleCompressedGravel.initModel();
+        septupleCompressedGravel.initModel();
+        octupleCompressedGravel.initModel();
+        nontupleCompressedGravel.initModel();
+        decupleCompressedGravel.initModel();
     }
 }

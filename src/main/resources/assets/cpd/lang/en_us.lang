@@ -23,5 +23,17 @@ tile.cpd.octuplecompresseddirt.name=x8 Compressed Dirt
 tile.cpd.nontuplecompresseddirt.name=x9 Compressed Dirt
 tile.cpd.decuplecompresseddirt.name=x10 Compressed Dirt
 
+#Gravel
+tile.cpd.compressedgravel.name=Compressed Gravel
+tile.cpd.doublecompressedgravel.name=x2 Compressed Gravel
+tile.cpd.triplecompressedgravel.name=x3 Compressed Gravel
+tile.cpd.quadruplecompressedgravel.name=x4 Compressed Gravel
+tile.cpd.quintuplecompressedgravel.name=x5 Compressed Gravel
+tile.cpd.sextuplecompressedgravel.name=x6 Compressed Gravel
+tile.cpd.septuplecompressedgravel.name=x7 Compressed Gravel
+tile.cpd.octuplecompressedgravel.name=x8 Compressed Gravel
+tile.cpd.nontuplecompressedgravel.name=x9 Compressed Gravel
+tile.cpd.decuplecompressedgravel.name=x10 Compressed Gravel
+
 #CreativeTab
 itemGroup.Compressed=Compressed

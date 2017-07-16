@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cpd:septuplecompressedgravel"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}
