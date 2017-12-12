@@ -10,7 +10,8 @@
   "type": "forge:ore_shaped",
   "key": {
     "x": {
-      "item": "minecraft:sand"
+      "type": "forge:ore_dict",
+      "ore": "sand"
     }
   }
 }

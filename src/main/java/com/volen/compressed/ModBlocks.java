@@ -166,11 +166,11 @@ public class ModBlocks {
         tripleCompressedGravel.initModel();
         quadrupleCompressedGravel.initModel();
         quintupleCompressedGravel.initModel();
-        sextupleCompressedDirt.initModel();
-        septupleCompressedDirt.initModel();
-        octupleCompressedDirt.initModel();
-        nontupleCompressedDirt.initModel();
-        decupleCompressedDirt.initModel();
+        sextupleCompressedGravel.initModel();
+        septupleCompressedGravel.initModel();
+        octupleCompressedGravel.initModel();
+        nontupleCompressedGravel.initModel();
+        decupleCompressedGravel.initModel();
 
         // Sand
         compressedSand.initModel();

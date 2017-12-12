@@ -73,6 +73,7 @@ public class CommonProxy {
         event.getRegistry().register(new QuadrupleCompressedSand());
         event.getRegistry().register(new QuintupleCompressedSand());
         event.getRegistry().register(new SextupleCompressedSand());
+        event.getRegistry().register(new SeptupleCompressedSand());
         event.getRegistry().register(new OctupleCompressedSand());
         event.getRegistry().register(new NontupleCompressedSand());
         event.getRegistry().register(new DecupleCompressedSand());
@@ -121,7 +122,7 @@ public class CommonProxy {
        event.getRegistry().register(new ItemBlock(ModBlocks.compressedSand).setRegistryName(ModBlocks.compressedSand.getRegistryName()));
        event.getRegistry().register(new ItemBlock(ModBlocks.doubleCompressedSand).setRegistryName(ModBlocks.doubleCompressedSand.getRegistryName()));
        event.getRegistry().register(new ItemBlock(ModBlocks.tripleCompressedSand).setRegistryName(ModBlocks.tripleCompressedSand.getRegistryName()));
-       event.getRegistry().register(new ItemBlock(ModBlocks.quadrupleCompressedSand).setRegistryName(ModBlocks.quintupleCompressedSand.getRegistryName()));
+       event.getRegistry().register(new ItemBlock(ModBlocks.quadrupleCompressedSand).setRegistryName(ModBlocks.quadrupleCompressedSand.getRegistryName()));
        event.getRegistry().register(new ItemBlock(ModBlocks.quintupleCompressedSand).setRegistryName(ModBlocks.quintupleCompressedSand.getRegistryName()));
        event.getRegistry().register(new ItemBlock(ModBlocks.sextupleCompressedSand).setRegistryName(ModBlocks.sextupleCompressedSand.getRegistryName()));
        event.getRegistry().register(new ItemBlock(ModBlocks.septupleCompressedSand).setRegistryName(ModBlocks.septupleCompressedSand.getRegistryName()));
