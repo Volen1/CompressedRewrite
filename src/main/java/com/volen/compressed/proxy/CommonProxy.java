@@ -1,5 +1,6 @@
 package com.volen.compressed.proxy;
 
+import com.volen.compressed.ModBlocks;
 import com.volen.compressed.blocks.*;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -65,9 +66,19 @@ public class CommonProxy {
         event.getRegistry().register(new NontupleCompressedGravel());
         event.getRegistry().register(new DecupleCompressedGravel());
 
+        // Sand
+        event.getRegistry().register(new CompressedSand());
+        event.getRegistry().register(new DoubleCompressedSand());
+        event.getRegistry().register(new TripleCompressedSand());
+        event.getRegistry().register(new QuadrupleCompressedSand());
+        event.getRegistry().register(new QuintupleCompressedSand());
+        event.getRegistry().register(new SextupleCompressedSand());
+        event.getRegistry().register(new OctupleCompressedSand());
+        event.getRegistry().register(new NontupleCompressedSand());
+        event.getRegistry().register(new DecupleCompressedSand());
     }
 
-    @SubscribeEvent
+     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
 
         // Cobblestone
@@ -105,5 +116,18 @@ public class CommonProxy {
         event.getRegistry().register(new ItemBlock(ModBlocks.octupleCompressedGravel).setRegistryName(ModBlocks.octupleCompressedGravel.getRegistryName()));
         event.getRegistry().register(new ItemBlock(ModBlocks.nontupleCompressedGravel).setRegistryName(ModBlocks.nontupleCompressedGravel.getRegistryName()));
         event.getRegistry().register(new ItemBlock(ModBlocks.decupleCompressedGravel).setRegistryName(ModBlocks.decupleCompressedGravel.getRegistryName()));
+
+        // Sand
+       event.getRegistry().register(new ItemBlock(ModBlocks.compressedSand).setRegistryName(ModBlocks.compressedSand.getRegistryName()));
+       event.getRegistry().register(new ItemBlock(ModBlocks.doubleCompressedSand).setRegistryName(ModBlocks.doubleCompressedSand.getRegistryName()));
+       event.getRegistry().register(new ItemBlock(ModBlocks.tripleCompressedSand).setRegistryName(ModBlocks.tripleCompressedSand.getRegistryName()));
+       event.getRegistry().register(new ItemBlock(ModBlocks.quadrupleCompressedSand).setRegistryName(ModBlocks.quintupleCompressedSand.getRegistryName()));
+       event.getRegistry().register(new ItemBlock(ModBlocks.quintupleCompressedSand).setRegistryName(ModBlocks.quintupleCompressedSand.getRegistryName()));
+       event.getRegistry().register(new ItemBlock(ModBlocks.sextupleCompressedSand).setRegistryName(ModBlocks.sextupleCompressedSand.getRegistryName()));
+       event.getRegistry().register(new ItemBlock(ModBlocks.septupleCompressedSand).setRegistryName(ModBlocks.septupleCompressedSand.getRegistryName()));
+       event.getRegistry().register(new ItemBlock(ModBlocks.octupleCompressedSand).setRegistryName(ModBlocks.octupleCompressedSand.getRegistryName()));
+       event.getRegistry().register(new ItemBlock(ModBlocks.nontupleCompressedSand).setRegistryName(ModBlocks.nontupleCompressedSand.getRegistryName()));
+       event.getRegistry().register(new ItemBlock(ModBlocks.decupleCompressedSand).setRegistryName(ModBlocks.decupleCompressedSand.getRegistryName()));
     }
+
 }

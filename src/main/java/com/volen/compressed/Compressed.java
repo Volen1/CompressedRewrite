@@ -1,6 +1,5 @@
 package com.volen.compressed;
 
-import com.volen.compressed.blocks.ModBlocks;
 import com.volen.compressed.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;

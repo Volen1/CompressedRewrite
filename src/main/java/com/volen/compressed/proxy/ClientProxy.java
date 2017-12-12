@@ -1,6 +1,6 @@
 package com.volen.compressed.proxy;
 
-import com.volen.compressed.blocks.ModBlocks;
+import com.volen.compressed.ModBlocks;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;

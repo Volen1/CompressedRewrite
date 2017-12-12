@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cpd:compressedsand"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

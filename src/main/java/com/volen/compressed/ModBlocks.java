@@ -1,6 +1,8 @@
-package com.volen.compressed.blocks;
+package com.volen.compressed;
 
 
+import com.volen.compressed.blocks.*;
+import net.minecraft.block.Block;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -100,9 +102,40 @@ public class ModBlocks {
     @GameRegistry.ObjectHolder("cpd:decuplecompressedgravel")
     public static DecupleCompressedGravel decupleCompressedGravel;
 
+    // Sand
+    @GameRegistry.ObjectHolder("cpd:compressedsand")
+    public static CompressedSand compressedSand;
+
+    @GameRegistry.ObjectHolder("cpd:doublecompressedsand")
+    public static DoubleCompressedSand doubleCompressedSand;
+
+    @GameRegistry.ObjectHolder("cpd:triplecompressedsand")
+    public static TripleCompressedSand tripleCompressedSand;
+
+    @GameRegistry.ObjectHolder("cpd:quadruplecompressedsand")
+    public static QuadrupleCompressedSand quadrupleCompressedSand;
+
+    @GameRegistry.ObjectHolder("cpd:quintuplecompressedsand")
+    public static QuintupleCompressedSand quintupleCompressedSand;
+
+    @GameRegistry.ObjectHolder("cpd:sextuplecompressedsand")
+    public static SextupleCompressedSand sextupleCompressedSand;
+
+    @GameRegistry.ObjectHolder("cpd:septuplecompressedsand")
+    public static SeptupleCompressedSand septupleCompressedSand;
+
+    @GameRegistry.ObjectHolder("cpd:octuplecompressedsand")
+    public static OctupleCompressedSand octupleCompressedSand;
+
+    @GameRegistry.ObjectHolder("cpd:nontuplecompressedsand")
+    public static NontupleCompressedSand nontupleCompressedSand;
+
+    @GameRegistry.ObjectHolder("cpd:decuplecompressedsand")
+    public static DecupleCompressedSand decupleCompressedSand;
+
+
     @SideOnly(Side.CLIENT)
     public static void initModels() {
-
         // Cobblestone
         compressedCobblestone.initModel();
         doubleCompressedCobblestone.initModel();
@@ -133,10 +166,22 @@ public class ModBlocks {
         tripleCompressedGravel.initModel();
         quadrupleCompressedGravel.initModel();
         quintupleCompressedGravel.initModel();
-        sextupleCompressedGravel.initModel();
-        septupleCompressedGravel.initModel();
-        octupleCompressedGravel.initModel();
-        nontupleCompressedGravel.initModel();
-        decupleCompressedGravel.initModel();
+        sextupleCompressedDirt.initModel();
+        septupleCompressedDirt.initModel();
+        octupleCompressedDirt.initModel();
+        nontupleCompressedDirt.initModel();
+        decupleCompressedDirt.initModel();
+
+        // Sand
+        compressedSand.initModel();
+        doubleCompressedSand.initModel();
+        tripleCompressedSand.initModel();
+        quadrupleCompressedSand.initModel();
+        quintupleCompressedSand.initModel();
+        sextupleCompressedSand.initModel();
+        septupleCompressedSand.initModel();
+        octupleCompressedSand.initModel();
+        nontupleCompressedSand.initModel();
+        decupleCompressedSand.initModel();
     }
 }

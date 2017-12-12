@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "cpd:decuplecompressedsand"
+  },
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "x": {
+      "item": "cpd:nontuplecompressedsand"
+    }
+  }
+}

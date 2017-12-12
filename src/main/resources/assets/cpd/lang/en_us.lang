@@ -35,5 +35,17 @@ tile.cpd.octuplecompressedgravel.name=x8 Compressed Gravel
 tile.cpd.nontuplecompressedgravel.name=x9 Compressed Gravel
 tile.cpd.decuplecompressedgravel.name=x10 Compressed Gravel
 
+#Sand
+tile.cpd.compressedsand.name=Compressed Sand
+tile.cpd.doublecompressedsand.name=2x Compressed Sand
+tile.cpd.triplecompressedsand.name=3x Compressed Sand
+tile.cpd.quadruplecompressedsand.name=4x Compressed Sand
+tile.cpd.quintuplecompressedsand.name=5x Compressed Sand
+tile.cpd.sextuplecompressedsand.name=6x Compressed Sand
+tile.cpd.septuplecompressedsand.name=7x Compressed Sand
+tile.cpd.octuplecompressedsand.name=8x Compressed Sand
+tile.cpd.nontuplecompressedsand.name=9x Compressed Sand
+tile.cpd.decuplecompressedsand.name=10x Compressed Sand
+
 #CreativeTab
 itemGroup.Compressed=Compressed
