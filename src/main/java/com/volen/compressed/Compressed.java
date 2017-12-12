@@ -17,7 +17,7 @@ public class Compressed {
 
     public static final String MODID = "cpd";
     public static final String MODNAME = "Compressed";
-    public static final String VERSION = "0.1.5";
+    public static final String VERSION = "0.1.8";
 
     @SidedProxy(clientSide = "com.volen.compressed.proxy.ClientProxy", serverSide = "com.volen.compressed.proxy.ServerProxy")
     public static CommonProxy proxy;

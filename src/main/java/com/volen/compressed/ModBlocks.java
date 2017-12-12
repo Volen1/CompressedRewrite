@@ -2,7 +2,6 @@ package com.volen.compressed;
 
 
 import com.volen.compressed.blocks.*;
-import net.minecraft.block.Block;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -133,6 +132,37 @@ public class ModBlocks {
     @GameRegistry.ObjectHolder("cpd:decuplecompressedsand")
     public static DecupleCompressedSand decupleCompressedSand;
 
+    // Netherrack
+    @GameRegistry.ObjectHolder("cpd:compressednetherrack")
+    public static CompressedNetherrack compressedNetherrack;
+
+    @GameRegistry.ObjectHolder("cpd:doublecompressednetherrack")
+    public static DoubleCompressedNetherrack doubleCompressedNetherrack;
+
+    @GameRegistry.ObjectHolder("cpd:triplecompressednetherrack")
+    public static TripleCompressedNetherrack tripleCompressedNetherrack;
+
+    @GameRegistry.ObjectHolder("cpd:quadruplecompressednetherrack")
+    public static QuadrupleCompressedNetherrack quadrupleCompressedNetherrack;
+
+    @GameRegistry.ObjectHolder("cpd:quintuplecompressednetherrack")
+    public static QuintupleCompressedNetherrack quintupleCompressedNetherrack;
+
+    @GameRegistry.ObjectHolder("cpd:sextuplecompressednetherrack")
+    public static SextupleCompressedNetherrack sextupleCompressedNetherrack;
+
+    @GameRegistry.ObjectHolder("cpd:septuplecompressednetherrack")
+    public static SeptupleCompressedNetherrack septupleCompressedNetherrack;
+
+    @GameRegistry.ObjectHolder("cpd:octuplecompressednetherrack")
+    public static OctupleCompressedNetherrack octupleCompressedNetherrack;
+
+    @GameRegistry.ObjectHolder("cpd:nontuplecompressednetherrack")
+    public static NontupleCompressedNetherrack nontupleCompressedNetherrack;
+
+    @GameRegistry.ObjectHolder("cpd:decuplecompressednetherrack")
+    public static DecupleCompressedNetherrack decupleCompressedNetherrack;
+
 
     @SideOnly(Side.CLIENT)
     public static void initModels() {
@@ -183,5 +213,17 @@ public class ModBlocks {
         octupleCompressedSand.initModel();
         nontupleCompressedSand.initModel();
         decupleCompressedSand.initModel();
+
+        // Netherrack
+        compressedNetherrack.initModel();
+        doubleCompressedNetherrack.initModel();
+        tripleCompressedNetherrack.initModel();
+        quadrupleCompressedNetherrack.initModel();
+        quintupleCompressedNetherrack.initModel();
+        sextupleCompressedNetherrack.initModel();
+        septupleCompressedNetherrack.initModel();
+        octupleCompressedNetherrack.initModel();
+        nontupleCompressedNetherrack.initModel();
+        decupleCompressedNetherrack.initModel();
     }
 }

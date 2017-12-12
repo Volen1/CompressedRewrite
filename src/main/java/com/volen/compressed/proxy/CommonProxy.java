@@ -77,6 +77,18 @@ public class CommonProxy {
         event.getRegistry().register(new OctupleCompressedSand());
         event.getRegistry().register(new NontupleCompressedSand());
         event.getRegistry().register(new DecupleCompressedSand());
+
+        // Netherrack
+        event.getRegistry().register(new CompressedNetherrack());
+        event.getRegistry().register(new DoubleCompressedNetherrack());
+        event.getRegistry().register(new TripleCompressedNetherrack());
+        event.getRegistry().register(new QuadrupleCompressedNetherrack());
+        event.getRegistry().register(new QuintupleCompressedNetherrack());
+        event.getRegistry().register(new SextupleCompressedNetherrack());
+        event.getRegistry().register(new SeptupleCompressedNetherrack());
+        event.getRegistry().register(new OctupleCompressedNetherrack());
+        event.getRegistry().register(new NontupleCompressedNetherrack());
+        event.getRegistry().register(new DecupleCompressedNetherrack());
     }
 
      @SubscribeEvent
@@ -129,6 +141,18 @@ public class CommonProxy {
        event.getRegistry().register(new ItemBlock(ModBlocks.octupleCompressedSand).setRegistryName(ModBlocks.octupleCompressedSand.getRegistryName()));
        event.getRegistry().register(new ItemBlock(ModBlocks.nontupleCompressedSand).setRegistryName(ModBlocks.nontupleCompressedSand.getRegistryName()));
        event.getRegistry().register(new ItemBlock(ModBlocks.decupleCompressedSand).setRegistryName(ModBlocks.decupleCompressedSand.getRegistryName()));
+
+       // Netherrack
+         event.getRegistry().register(new ItemBlock(ModBlocks.compressedNetherrack).setRegistryName(ModBlocks.compressedNetherrack.getRegistryName()));
+         event.getRegistry().register(new ItemBlock(ModBlocks.doubleCompressedNetherrack).setRegistryName(ModBlocks.doubleCompressedNetherrack.getRegistryName()));
+         event.getRegistry().register(new ItemBlock(ModBlocks.tripleCompressedNetherrack).setRegistryName(ModBlocks.tripleCompressedNetherrack.getRegistryName()));
+         event.getRegistry().register(new ItemBlock(ModBlocks.quadrupleCompressedNetherrack).setRegistryName(ModBlocks.quadrupleCompressedNetherrack.getRegistryName()));
+         event.getRegistry().register(new ItemBlock(ModBlocks.quintupleCompressedNetherrack).setRegistryName(ModBlocks.quintupleCompressedNetherrack.getRegistryName()));
+         event.getRegistry().register(new ItemBlock(ModBlocks.sextupleCompressedNetherrack).setRegistryName(ModBlocks.sextupleCompressedNetherrack.getRegistryName()));
+         event.getRegistry().register(new ItemBlock(ModBlocks.septupleCompressedNetherrack).setRegistryName(ModBlocks.septupleCompressedNetherrack.getRegistryName()));
+         event.getRegistry().register(new ItemBlock(ModBlocks.octupleCompressedNetherrack).setRegistryName(ModBlocks.octupleCompressedNetherrack.getRegistryName()));
+         event.getRegistry().register(new ItemBlock(ModBlocks.nontupleCompressedNetherrack).setRegistryName(ModBlocks.nontupleCompressedNetherrack.getRegistryName()));
+         event.getRegistry().register(new ItemBlock(ModBlocks.decupleCompressedNetherrack).setRegistryName(ModBlocks.decupleCompressedNetherrack.getRegistryName()));
     }
 
 }

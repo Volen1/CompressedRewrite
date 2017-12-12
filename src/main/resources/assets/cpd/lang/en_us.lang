@@ -47,5 +47,17 @@ tile.cpd.octuplecompressedsand.name=8x Compressed Sand
 tile.cpd.nontuplecompressedsand.name=9x Compressed Sand
 tile.cpd.decuplecompressedsand.name=10x Compressed Sand
 
+#Netherrack
+tile.cpd.compressednetherrack.name=Compressed Netherrack
+tile.cpd.doublecompressednetherrack.name=2x Compressed Netherrack
+tile.cpd.triplecompressednetherrack.name=3x Compressed Netherrack
+tile.cpd.quadruplecompressednetherrack.name=4x Compressed Netherrack
+tile.cpd.quintuplecompressednetherrack.name=5x Compressed Netherrack
+tile.cpd.sextuplecompressednetherrack.name=6x Compressed Netherrack
+tile.cpd.septuplecompressednetherrack.name=7x Compressed Netherrack
+tile.cpd.octuplecompressednetherrack.name=8x Compressed Netherrack
+tile.cpd.nontuplecompressednetherrack.name=9x Compressed Netherrack
+tile.cpd.decuplecompressednetherrack.name=10x Compressed Netherrack
+
 #CreativeTab
 itemGroup.Compressed=Compressed

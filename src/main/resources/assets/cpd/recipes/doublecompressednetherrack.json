@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "cpd:doublecompressednetherrack"
+  },
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "x": {
+      "item": "cpd:compressednetherrack"
+    }
+  }
+}
