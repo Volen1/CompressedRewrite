@@ -89,6 +89,18 @@ public class CommonProxy {
         event.getRegistry().register(new OctupleCompressedNetherrack());
         event.getRegistry().register(new NontupleCompressedNetherrack());
         event.getRegistry().register(new DecupleCompressedNetherrack());
+
+        // End Stone
+        event.getRegistry().register(new CompressedEndStone());
+        event.getRegistry().register(new DoubleCompressedEndStone());
+        event.getRegistry().register(new TripleCompressedEndStone());
+        event.getRegistry().register(new QuadrupleCompressedEndStone());
+        event.getRegistry().register(new QuintupleCompressedEndStone());
+        event.getRegistry().register(new SextupleCompressedEndStone());
+        event.getRegistry().register(new SeptupleCompressedEndStone());
+        event.getRegistry().register(new OctupleCompressedEndStone());
+        event.getRegistry().register(new NontupleCompressedEndStone());
+        event.getRegistry().register(new DecupleCompressedEndStone());
     }
 
      @SubscribeEvent
@@ -143,6 +155,7 @@ public class CommonProxy {
        event.getRegistry().register(new ItemBlock(ModBlocks.decupleCompressedSand).setRegistryName(ModBlocks.decupleCompressedSand.getRegistryName()));
 
        // Netherrack
+
          event.getRegistry().register(new ItemBlock(ModBlocks.compressedNetherrack).setRegistryName(ModBlocks.compressedNetherrack.getRegistryName()));
          event.getRegistry().register(new ItemBlock(ModBlocks.doubleCompressedNetherrack).setRegistryName(ModBlocks.doubleCompressedNetherrack.getRegistryName()));
          event.getRegistry().register(new ItemBlock(ModBlocks.tripleCompressedNetherrack).setRegistryName(ModBlocks.tripleCompressedNetherrack.getRegistryName()));
@@ -153,6 +166,19 @@ public class CommonProxy {
          event.getRegistry().register(new ItemBlock(ModBlocks.octupleCompressedNetherrack).setRegistryName(ModBlocks.octupleCompressedNetherrack.getRegistryName()));
          event.getRegistry().register(new ItemBlock(ModBlocks.nontupleCompressedNetherrack).setRegistryName(ModBlocks.nontupleCompressedNetherrack.getRegistryName()));
          event.getRegistry().register(new ItemBlock(ModBlocks.decupleCompressedNetherrack).setRegistryName(ModBlocks.decupleCompressedNetherrack.getRegistryName()));
+
+         // End Stone
+
+         event.getRegistry().register(new ItemBlock(ModBlocks.compressedEndStone).setRegistryName(ModBlocks.compressedEndStone.getRegistryName()));
+         event.getRegistry().register(new ItemBlock(ModBlocks.doubleCompressedEndStone).setRegistryName(ModBlocks.doubleCompressedEndStone.getRegistryName()));
+         event.getRegistry().register(new ItemBlock(ModBlocks.tripleCompressedEndStone).setRegistryName(ModBlocks.tripleCompressedEndStone.getRegistryName()));
+         event.getRegistry().register(new ItemBlock(ModBlocks.quadrupleCompressedEndStone).setRegistryName(ModBlocks.quadrupleCompressedEndStone.getRegistryName()));
+         event.getRegistry().register(new ItemBlock(ModBlocks.quintupleCompressedEndStone).setRegistryName(ModBlocks.quintupleCompressedEndStone.getRegistryName()));
+         event.getRegistry().register(new ItemBlock(ModBlocks.sextupleCompressedEndStone).setRegistryName(ModBlocks.sextupleCompressedEndStone.getRegistryName()));
+         event.getRegistry().register(new ItemBlock(ModBlocks.septupleCompressedEndStone).setRegistryName(ModBlocks.septupleCompressedEndStone.getRegistryName()));
+         event.getRegistry().register(new ItemBlock(ModBlocks.octupleCompressedEndStone).setRegistryName(ModBlocks.octupleCompressedEndStone.getRegistryName()));
+         event.getRegistry().register(new ItemBlock(ModBlocks.nontupleCompressedEndStone).setRegistryName(ModBlocks.nontupleCompressedEndStone.getRegistryName()));
+         event.getRegistry().register(new ItemBlock(ModBlocks.decupleCompressedEndStone).setRegistryName(ModBlocks.decupleCompressedEndStone.getRegistryName()));
     }
 
 }

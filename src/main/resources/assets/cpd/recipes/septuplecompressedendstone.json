@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "cpd:septuplecompressedendstone"
+  },
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "x": {
+      "item": "cpd:sextuplecompressedendstone"
+    }
+  }
+}

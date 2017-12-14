@@ -59,5 +59,17 @@ tile.cpd.octuplecompressednetherrack.name=8x Compressed Netherrack
 tile.cpd.nontuplecompressednetherrack.name=9x Compressed Netherrack
 tile.cpd.decuplecompressednetherrack.name=10x Compressed Netherrack
 
+#End Stone
+tile.cpd.compressedendstone.name=Compressed End Stone
+tile.cpd.doublecompressedendstone.name=2x Compressed End Stone
+tile.cpd.triplecompressedendstone.name=3x Compressed End Stone
+tile.cpd.quadruplecompressedendstone.name=4x Compressed End Stone
+tile.cpd.quintuplecompressedendstone.name=5x Compressed End Stone
+tile.cpd.sextuplecompressedendstone.name=6x Compressed End Stone
+tile.cpd.septuplecompressedendstone.name=7x Compressed End Stone
+tile.cpd.octuplecompressedendstone.name=8x Compressed End Stone
+tile.cpd.nontuplecompressedendstone.name=9x Compressed End Stone
+tile.cpd.decuplecompressedendstone.name=10x Compressed End Stone
+
 #CreativeTab
 itemGroup.Compressed=Compressed

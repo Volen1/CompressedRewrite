@@ -163,6 +163,37 @@ public class ModBlocks {
     @GameRegistry.ObjectHolder("cpd:decuplecompressednetherrack")
     public static DecupleCompressedNetherrack decupleCompressedNetherrack;
 
+    // End Stone
+    @GameRegistry.ObjectHolder("cpd:compressedendstone")
+    public static CompressedEndStone compressedEndStone;
+
+    @GameRegistry.ObjectHolder("cpd:doublecompressedendstone")
+    public static DoubleCompressedEndStone doubleCompressedEndStone;
+
+    @GameRegistry.ObjectHolder("cpd:triplecompressedendstone")
+    public static TripleCompressedEndStone tripleCompressedEndStone;
+
+    @GameRegistry.ObjectHolder("cpd:quadruplecompressedendstone")
+    public static QuadrupleCompressedEndStone quadrupleCompressedEndStone;
+
+    @GameRegistry.ObjectHolder("cpd:quintuplecompressedendstone")
+    public static QuintupleCompressedEndStone quintupleCompressedEndStone;
+
+    @GameRegistry.ObjectHolder("cpd:sextuplecompressedendstone")
+    public static SextupleCompressedEndStone sextupleCompressedEndStone;
+
+    @GameRegistry.ObjectHolder("cpd:septuplecompressedendstone")
+    public static SeptupleCompressedEndStone septupleCompressedEndStone;
+
+    @GameRegistry.ObjectHolder("cpd:octuplecompressedendstone")
+    public static OctupleCompressedEndStone octupleCompressedEndStone;
+
+    @GameRegistry.ObjectHolder("cpd:nontuplecompressedendstone")
+    public static NontupleCompressedEndStone nontupleCompressedEndStone;
+
+    @GameRegistry.ObjectHolder("cpd:decuplecompressedendstone")
+    public static DecupleCompressedEndStone decupleCompressedEndStone;
+
 
     @SideOnly(Side.CLIENT)
     public static void initModels() {
@@ -225,5 +256,17 @@ public class ModBlocks {
         octupleCompressedNetherrack.initModel();
         nontupleCompressedNetherrack.initModel();
         decupleCompressedNetherrack.initModel();
+
+        // End Stone
+        compressedEndStone.initModel();
+        doubleCompressedEndStone.initModel();
+        tripleCompressedEndStone.initModel();
+        quadrupleCompressedEndStone.initModel();
+        quintupleCompressedEndStone.initModel();
+        sextupleCompressedEndStone.initModel();
+        septupleCompressedEndStone.initModel();
+        octupleCompressedEndStone.initModel();
+        nontupleCompressedEndStone.initModel();
+        decupleCompressedEndStone.initModel();
     }
 }
